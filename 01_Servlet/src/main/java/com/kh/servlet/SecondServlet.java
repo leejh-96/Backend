@@ -49,14 +49,4 @@ public class SecondServlet extends HttpServlet {
 		
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
