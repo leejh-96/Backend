@@ -5,6 +5,9 @@
 	pageEncoding="UTF-8"
 %>
 <%
+	/* POST 방식은 사용자로부터 데이터를 가져오기 전에 인코딩 설정을 해준다. */
+	request.setCharacterEncoding("UTF-8");
+
 	/* 폼 파라미터 값 읽어오기 */
 	String userName = request.getParameter("userName");
 	String userAge = request.getParameter("userAge");
@@ -16,8 +19,7 @@
 	System.out.println(gender);
 // 	Arrays.stream(food).forEach(System.out::print);
 	Arrays.stream(food).forEach(foods->System.out.print(foods+" "));
-	
-// 	response.set
+
 %>
 <!DOCTYPE html>
 <html>
