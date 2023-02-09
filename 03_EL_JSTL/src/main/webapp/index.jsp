@@ -46,46 +46,50 @@
 	</p>
 	
 	<h3>1) 표준 액션 태그</h3>
-	<p>
-		JSP에서 기본으로 제공하는 액션 태그로 별도의 라이브러리 설치 없이 바로 사용할 수 있다.
-	</p>
+	<p>JSP에서 기본으로 제공하는 액션 태그로 별도의 라이브러리 설치 없이 바로 사용할 수 있다.</p>
 	
 	<a href="${contextPath }/views/actiontag/standard/include.jsp">jsp:include</a>
 	<a href="${contextPath }/views/actiontag/standard/forward.jsp">jsp:forward</a>
 
 	<h3>2) JSTL(JSP Standard Tag Library)</h3>
 
-	<p>
-		JSP 페이지에서 자주 사용하는 코드들을 사용하기 쉽게 태그로 만들어 표준으로 제공한다.
-	</p>
+	<p>JSP 페이지에서 자주 사용하는 코드들을 사용하기 쉽게 태그로 만들어 표준으로 제공한다.</p>
 
 	<h4>2-1) JSTL Core Library</h4>
 	
-	<p>
-		변수와 url, 조건문, 반복문 등의 로직과 관련된 JSTL 문법을 제공한다.
-	</p>
+	<p>변수와 url, 조건문, 반복문 등의 로직과 관련된 JSTL 문법을 제공한다.</p>
 
 	<a href="${contextPath }/views/actiontag/jstl/core.jsp">JSTL Core</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
+	<h4>2-2) JSTL Formattion Library</h4>
+	<p>날짜,시간,숫자 데이터의 출력 형식을 지정할 때 사용하는 태그를 제공한다.</p>
+	
+	<a href="${contextPath }/views/actiontag/jstl/formatting.jsp">JSTL Formatting</a>
+	
+	<h4>2-3) JSTL Funtion Library</h4>
+	<p>EL 구문에서 사용할 수 있게 하는 라이브러리이다.</p>
+	
+	<a href="${contextPath }/views/actiontag/jstl/funtion.jsp">JSTL Funtion Library</a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
